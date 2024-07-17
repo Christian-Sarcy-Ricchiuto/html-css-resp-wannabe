@@ -1,0 +1,29 @@
+/* Sotto i 576px*/
+
+
+
+@media screen and (min-width:575){
+    #lessons {
+        max-width: 500px;
+    }
+
+    
+}
+
+
+/* Sotto i 768px */
+@media screen and (max-width: 768px){
+
+main figure {
+    display: flex;
+}
+
+.section {
+    display: flex;
+}
+}
+
+
+
+
+
