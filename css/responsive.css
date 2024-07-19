@@ -1,35 +1,30 @@
-/* Sotto i 1160px */
-
+/* sotto i 1160px */
 .container {
-  width:100%;
-  max-width: 1160;
-  }
-@media screen and (max-width: 1160px){
+    width: 100%;
 }
 
-/* Sotto i 768px */
-@media screen and (max-width: 768px){
+/* sotto i 576px */
+@media screen and (max-width:576px) {
 
-.container {
-  width:100%;
-  }
+.container { 
+    width: 100%;
 }
 
-/* Sotto i 576px */
-@media screen and (max-width: 576px){
-
-  .row {
-      flex-direction: column;
-      width: 100%;
-    }
+.row {
+    flex-direction: column;
 }
 
+.row.col {
+    width: 100%;
     
-    
+}
 
+.steps, .why-us, .row .col :last-child {
+    margin-bottom: 0;
+}
 
-
-
-
-
-
+.why-us {
+    background-color: #222;
+    padding: 3rem 0;
+}
+}
